@@ -10,6 +10,8 @@ namespace TradeAdmissionTest.Categories.CategoriesCreators
 {
     public class ExpiredCategoryCreator : ACategoryCreator
     {
+        public override int NumOrder { get => 1; }
+
         public override ICategory CreateCategory(ITrade trade, DateTime refDate)
         {
             if (trade.NextPaymentDate < refDate.AddDays(30)) 

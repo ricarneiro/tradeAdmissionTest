@@ -10,6 +10,8 @@ namespace TradeAdmissionTest.Categories.CategoriesCreators
 {
     public class MediumRiskCategoryCreator : ACategoryCreator
     {
+        public override int NumOrder { get => 3; }
+
         public override ICategory CreateCategory(ITrade trade, DateTime refDate)
         {
             if (trade.Value > 1000000 && trade.ClientSector == "Public")

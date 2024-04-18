@@ -19,7 +19,7 @@ namespace TradeAdmissionTest.Categories.CategoriesCreators
                 Setup();                
             }
 
-            foreach (var creator in creators)
+            foreach (var creator in creators.OrderBy(o => o.NumOrder))
             {
                 var category = creator.CreateCategory(trade, refDate);
                 if (category != null) return category;

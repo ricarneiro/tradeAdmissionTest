@@ -9,6 +9,8 @@ namespace TradeAdmissionTest.Categories.CategoriesCreators.Abstracts
 {
     public abstract class ACategoryCreator
     {
+        public abstract int NumOrder { get; }
+
         public ACategoryCreator()
         {
         }
