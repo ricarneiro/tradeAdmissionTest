@@ -51,4 +51,4 @@ IsPoliticallyExposed was created in the ITrade interface. A trade shall be categ
 IsPoliticallyExposed is true. Describe in at most 1 paragraph what you must do in your design to account for this
 new category
 
-This solution it is in feat/[XXXXX]-PEP branch.
+This solution it is in feat/XXXXX-PEP branch.
