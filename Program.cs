@@ -25,7 +25,7 @@ if (!int.TryParse(numTradesInput, out numTrades))
 
 string[] trades = new string[numTrades];
 
-Console.WriteLine("Please type de trades space separated.");
+Console.WriteLine("Please type the trades space separated.");
 for (int x = 0; x < numTrades; x++)
 {
     Console.Write($"{x} : ");

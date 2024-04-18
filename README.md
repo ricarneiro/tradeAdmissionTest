@@ -60,7 +60,7 @@ Welcome
 Please type a reference date: 12/11/2020
 
 Please type the number of trades: 4
-Please type de trades space separated.
+Please type the trades space separated.
 0 : 2000000 Private 12/29/2025 FALSE
 1 : 400000 Public 07/01/2020 FALSE
 2 : 5000000 Public 01/02/2024 TRUE
