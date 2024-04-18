@@ -46,6 +46,27 @@ MEDIUMRISK
 
 This solution it is in main branch.
 
+```
+RESULTADO
+
+Welcome
+Please type a reference date: 12/11/2020
+
+Please type the number of trades: 4
+Please type the trades space separated.
+0 : 2000000 Private 12/29/2025 FALSE
+1 : 400000 Public 07/01/2020 FALSE
+2 : 5000000 Public 01/02/2024 TRUE
+3 : 3000000 Public 10/26/2023 FALSE
+HIGHRISK
+EXPIRED
+POLITICALLYEXPOSED
+MEDIUMRISK
+
+
+```
+
+
 **Question 2:** A new category was created called PEP (politically exposed person). Also, a new bool property
 IsPoliticallyExposed was created in the ITrade interface. A trade shall be categorized as PEP if
 IsPoliticallyExposed is true. Describe in at most 1 paragraph what you must do in your design to account for this
