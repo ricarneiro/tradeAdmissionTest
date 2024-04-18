@@ -32,6 +32,7 @@ namespace TradeAdmissionTest.Categories.CategoriesCreators
             //It is possible to create a loop using Reflection getting all classes who inherits from ACategoryCreator.
             creators = new List<ACategoryCreator>()
             {
+                new PoliticallyExposedCategoryCreator(),
                 new ExpiredCategoryCreator(),
                 new HighRiskCategoryCreator(),
                 new MediumRiskCategoryCreator(),
